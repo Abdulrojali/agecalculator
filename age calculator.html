@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="agecalculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+       <div class="input-content">
+        <div class="col">
+            <label for="day">day</label>
+            <input type="text" class="day" placeholder="dd" maxlength="2">
+        </div>
+        <div class="col">
+            <label for="month">month</label>
+            <input type="text" class="month" placeholder="mm" maxlength="2">
+        </div>
+        <div class="col">
+            <label for="years">years</label>
+            <input type="text" class="tahun" placeholder="yy" maxlength="4">
+        </div>
+       </div>
+        <button onclick="clickButton()"><i class="fa-solid fa-arrow-down"></i></button>
+    </div>
+    <div class="container-two">
+        <div class="colDua">
+            <p class="hari"></p>
+            <p>: day</p>
+        </div>
+        <div class="colDua">
+            <p class="tanggal"></p>
+            <p>: month</p>
+        </div>
+        <div class="colDua">
+            <p classs="years" id="years"></p>
+            <p>: years</p>
+        </div>
+    </div>
+    <script src="agecalculator.js"></script>
+</body>
+</html>

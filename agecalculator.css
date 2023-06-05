@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.input-content{
+    display: flex;
+    gap: 20px;
+}
+.input-content .col{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.input-content .col label{
+    font-size: 1em;
+    font-weight: 650;
+    text-transform: capitalize;
+}
+.input-content .col input{
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    padding: 0 8px;
+    border: none;
+    background-color:rgb(211, 208, 208);
+}
+.container button{
+    top: 25%;
+    right: 25%;
+    display: inline-block;
+    position: absolute;
+    border:none;
+    width: 100px;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(210, 25, 210);
+    cursor: pointer;
+}
+.container button:hover{
+    opacity: 0.5;
+}
+.container-two{
+    padding: 20px;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.colDua{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.colDua p{
+    display: flex;
+    gap: 20px;
+    font-size: 1.5em;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.colDua p:nth-child(2){
+    color: rgb(210, 25, 210) ;
+}
